@@ -1,4 +1,11 @@
-# AngularTest5
+# Angular-Forms
+
+## Prerequisites:
+* FormsModule to be imported
+* Local References
+* Two-way databinding
+* @Viewchild Decorator
+* Custom Eventbinding for component communication
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.0.
 
