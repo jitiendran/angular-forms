@@ -1,0 +1,10 @@
+<app-create-server (sAdd)="Addserver($event)"></app-create-server>
+<div class="container">
+    <div class="server-list-wrapper"
+        *ngFor="let server of Servers">
+        <h3 id="name">{{server.ServerName}}</h3>
+        <h3 id="type"> type(<span>{{server.ServerType}}</span>)</h3>
+        <h3 id="desc">{{server.ServerDesc}}</h3>
+    </div>
+</div>
+

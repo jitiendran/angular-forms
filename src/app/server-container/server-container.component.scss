@@ -1,0 +1,21 @@
+.container{
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .server-list-wrapper{
+        display: flex;
+        width: 90%;
+        padding: 1em;
+        border: 2.5px solid gainsboro;
+        margin-bottom: 1em;
+        border-radius: .5em;
+        span{
+            color: crimson;
+        }
+        #name,#type,#desc{
+            width: 30%;
+        }
+    }
+}

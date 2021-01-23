@@ -1,0 +1,40 @@
+.server-wrapper{
+    padding: 2em;
+    .input-wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+        padding: 1.5em;
+        box-shadow: 0px 0px 5px 1px rgba(0,0,0,.2);
+        border-radius: .3em;
+        label{
+            font-size: 1.4em;
+            font-weight: 500;
+        }
+        input{
+            outline: none;
+            width: 13em;
+            border: 2px solid cornflowerblue;
+            padding: .3em;
+            font-size: 1.3em;
+            border-radius: .3em;
+        }
+        button{
+            padding: .5em;
+            font-size: 1.3em;
+            transition: .2s;
+            background: lightseagreen;
+            border: none;
+            outline: none;
+            border-radius: .2em;
+            color: #fff;
+            font-weight: 500;
+            box-shadow: 0px 0px 5px 1px rgba(0,0,0,.1);
+            cursor: pointer;
+            &:hover{
+                background: darken($color:lightseagreen, $amount: 8%);
+            }
+        }
+    }
+}

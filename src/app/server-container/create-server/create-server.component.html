@@ -1,0 +1,12 @@
+<div class="server-wrapper">
+    <div class="input-wrapper">
+        <label for="Name">Name</label>
+        <input type="text" #serverName>
+        <label for="Type">Type</label>
+        <!-- <input type="text" [(ngModel)]="ServerType"> -->
+        <input type="text" #serverType>
+        <label for="Description">Description</label>
+        <input type="text" [(ngModel)]="ServerDesc">
+        <button (click)="insertServer(serverType)">Add server</button>
+    </div>
+</div>
