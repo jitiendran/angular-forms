@@ -1,6 +1,6 @@
 # Angular-Forms
 
-## <span style="color: orange> Prerequisites: </span>
+## Prerequisites: 
 * FormsModule to be imported 
 * Local References
 * Two-way databinding
